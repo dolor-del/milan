@@ -1,0 +1,10 @@
+BEGIN 
+ x:=0;
+ n:=5;
+ REPEAT
+  z:=READ; 
+  x:=x+z++; 
+  n:=n-1
+ WHILE n<0;
+ OUTPUT(x)
+END

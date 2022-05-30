@@ -1,0 +1,10 @@
+BEGIN
+ x:=0;
+ n:=5;
+ FOR i:=1 TO 10 STEP 2 
+  x:=i;
+  x--;
+  OUTPUT(x);
+ ENDFOR;
+ OUTPUT(i);
+END

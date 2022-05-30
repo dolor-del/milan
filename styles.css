@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.root {
+	font-style: italic;
+}
+
+.root span {
+	border-top: 1px solid black;
+	margin-left: -6px;
+}
+
+.mytable th, .mytable td {
+	border: 1px solid black;
+	font-size: 24px;
+	padding: 3px;
+}
+
+.mytable {
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: center;
+	margin:auto;
+}
+
+.mytable .lefter {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.border {
+	border: 2px solid black;
+	margin: auto;
+	border-radius: 35px;
+	padding: 10px;
+}
+
+table {
+	border: 2px solid white;
+	border-collapse: collapse;
+}
+
+.alphacolor {
+	color: red;
+}

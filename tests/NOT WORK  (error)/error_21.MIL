@@ -1,0 +1,6 @@
+BEGIN
+ IF x>2 
+  x:=2;
+ ENDIF
+  OUTPUT(0)
+END

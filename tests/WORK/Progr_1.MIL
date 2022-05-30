@@ -1,0 +1,10 @@
+BEGIN
+ x:=0;
+ n:=5;
+ WHILE n>0 DO
+  z:=READ;
+  x:=x+z;
+  n:=n-1
+ ENDDO;
+ OUTPUT(x)
+END

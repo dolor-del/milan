@@ -1,0 +1,6 @@
+BEGIN
+ IF x/2 THEN
+  x:=2%x;
+ ENDIF;
+  OUTPUT(0)
+END

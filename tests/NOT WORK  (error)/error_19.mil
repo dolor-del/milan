@@ -1,0 +1,12 @@
+BEGIN
+ x:=1;
+ IF x/2<1 THEN
+ x:=2;
+  WHILE x+1>2 DO
+   z:=READ;
+   y:=READ;
+   x:=x-1;
+  ENDDO;
+  ENDIF;
+  OUTPUT(x+z+y);
+END

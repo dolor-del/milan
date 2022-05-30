@@ -1,0 +1,13 @@
+BEGIN
+ x:=0;
+ n:=5;
+ WHILE n>0 DO
+  x++;
+{*  z:=3*x--+x;
+ OUTPUT(z);*} 
+  OUTPUT(x);
+
+  n:=n-1;
+ ENDDO;
+ 
+END

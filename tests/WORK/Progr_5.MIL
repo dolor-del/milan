@@ -1,0 +1,22 @@
+BEGIN
+ x:=READ;
+ IF x>2 THEN
+  x:=2;
+ ENDIF;
+
+ x:=0;
+ n:=5;
+
+ WHILE n>0 DO
+  z:=2*4;
+  x:=x+z;
+  n:=n-1
+ ENDDO;
+  n:=1;
+ WHILE n>0 DO
+  z:=READ;
+  x:=x+z;
+  n:=n-1
+ ENDDO;
+ OUTPUT(x)
+END

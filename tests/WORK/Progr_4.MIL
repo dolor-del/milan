@@ -1,0 +1,7 @@
+BEGIN
+ x:=READ;
+ IF x>2 THEN
+  x:=2;
+ ENDIF;
+  OUTPUT(0)
+END

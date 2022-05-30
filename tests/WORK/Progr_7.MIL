@@ -1,0 +1,18 @@
+BEGIN
+ x:=1;
+ n:=5;
+ WHILE n>0 DO 
+ IF n<3 THEN
+   x:=READ+x/2;
+ ELSE 
+   y:=4;
+   WHILE y>0 DO
+      y:=y-1;
+   ENDDO;
+   x:=x+1;
+ ENDIF;
+  z:=3*x+x;
+  n:=n-1;
+ ENDDO; 
+OUTPUT(z);
+END
